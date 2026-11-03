@@ -1,0 +1,60 @@
+{
+  "chats": {
+    "system:diary": {
+      "sessionId": "session-36a4a6ec-99f0-4f31-a568-55b98c6c6442",
+      "preset": "aurabot-social",
+      "level": "social",
+      "createdAt": 1793684383570,
+      "title": "QQ · 空间日记",
+      "model": "deepseek::deepseek-flash::low"
+    },
+    "private:1450520453": {
+      "sessionId": "session-f8ddd513-f9dd-48b1-826d-c29cc5debd1a",
+      "preset": "aurabot-private",
+      "level": "full",
+      "createdAt": 1793684861370,
+      "title": "QQ · 主人私聊",
+      "model": "deepseek::deepseek-flash::low"
+    },
+    "system:bili": {
+      "sessionId": "session-e1563c50-02ac-4331-9fe7-087472b2b00b",
+      "preset": "aurabot-social",
+      "level": "social",
+      "createdAt": 1793685403712,
+      "title": "QQ · QQ · 刷B站",
+      "model": "deepseek::deepseek-flash::low"
+    },
+    "system:douyin": {
+      "sessionId": "session-09fcdc5c-15b8-4bf6-8313-745b5e335912",
+      "preset": "aurabot-social",
+      "level": "social",
+      "createdAt": 1793685553198,
+      "title": "QQ · QQ · 刷抖音",
+      "model": "deepseek::deepseek-flash::low"
+    },
+    "group:1016983755": {
+      "sessionId": "session-6e01e2a8-b076-4315-b046-79145923f89e",
+      "preset": "aurabot-social",
+      "level": "social",
+      "createdAt": 1793686167190,
+      "title": "QQ 群 · 酒馆",
+      "model": "deepseek::deepseek-flash::low"
+    },
+    "system:purpose": {
+      "sessionId": "session-077cf6e5-ea0f-44ee-aa46-6ccdee1ef92b",
+      "preset": "aurabot-social",
+      "level": "chat",
+      "createdAt": 1793686716376,
+      "title": "QQ · QQ · 主动搭话（目的回合）",
+      "model": "deepseek::deepseek-flash::low"
+    },
+    "private:2339801179": {
+      "sessionId": "session-f0b89614-3260-4758-a39d-236fce725672",
+      "preset": "aurabot-social",
+      "level": "social",
+      "createdAt": 1793687772140,
+      "title": "QQ 私聊 · Lavender.",
+      "model": "deepseek::deepseek-flash::low"
+    }
+  }
+}

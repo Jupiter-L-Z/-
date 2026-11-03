@@ -1,0 +1,384 @@
+﻿{
+    "enabled":  true,
+    "dryRun":  false,
+    "setupDone":  true,
+    "botQQ":  "235286703",
+    "ownerQQ":  "1450520453",
+    "ownerName":  "主人",
+    "ownerLevel":  "full",
+    "profilePerms":  {
+                         "qqNickname":  "owner",
+                         "qqSignature":  "owner",
+                         "qqAvatar":  "owner",
+                         "biliSign":  "owner",
+                         "biliAvatar":  "owner",
+                         "qqFriendRequest":  "owner",
+                         "whitelist":  "owner",
+                         "douyinBrowse":  "owner",
+                         "douyinLike":  "owner",
+                         "douyinComment":  "owner",
+                         "douyinShareOwner":  "owner",
+                         "douyinDm":  "owner",
+                         "heyboxBrowse":  "owner",
+                         "heyboxLike":  "owner",
+                         "heyboxComment":  "owner",
+                         "heyboxPost":  "owner"
+                     },
+    "longTasks":  false,
+    "allow":  {
+                  "private":  [
+                                  "2339801179"
+                              ],
+                  "groups":  [
+                                 "779137146",
+                                 "1016983755"
+                             ]
+              },
+    "gateway":  "snowluma",
+    "workspaceDir":  "",
+    "files":  {
+                  "enabled":  true,
+                  "maxMB":  50,
+                  "dirs":  [
+
+                           ]
+              },
+    "security":  {
+                     "dangerConfirm":  false
+                 },
+    "snowluma":  {
+                     "dir":  "E:\\qqbot\\tools\\SnowLuma",
+                     "autoStart":  true,
+                     "webuiPort":  5099,
+                     "webuiPassword":  "",
+                     "passwordAuto":  true,
+                     "autoAttach":  true,
+                     "httpUrl":  "",
+                     "wsUrl":  "",
+                     "httpToken":  "",
+                     "wsToken":  ""
+                 },
+    "model":  {
+                  "provider":  "",
+                  "model":  "",
+                  "reasoningEffort":  "low",
+                  "vision":  "auto"
+              },
+    "chatModels":  {
+                       "privateDefault":  {
+                                              "provider":  "",
+                                              "model":  "",
+                                              "reasoningEffort":  ""
+                                          },
+                       "groupDefault":  {
+                                            "provider":  "",
+                                            "model":  "",
+                                            "reasoningEffort":  ""
+                                        },
+                       "privates":  {
+
+                                    },
+                       "groups":  {
+
+                                  }
+                   },
+    "merge":  {
+                  "enabled":  true,
+                  "waitSec":  2.5,
+                  "maxSec":  8,
+                  "groupWaitSec":  5,
+                  "groupMaxSec":  15
+              },
+    "imageGen":  {
+                     "enabled":  true,
+                     "provider":  "openai",
+                     "baseUrl":  "https://www.heilovehei.com",
+                     "apiKey":  "",
+                     "model":  "",
+                     "size":  "1024x1024",
+                     "shape":  "her",
+                     "stylePrompt":  "",
+                     "ownerOnly":  true,
+                     "seeOwn":  true,
+                     "galleryShown":  20,
+                     "custom":  {
+                                    "method":  "GET",
+                                    "url":  "",
+                                    "bodyType":  "json",
+                                    "responsePath":  "",
+                                    "params":  [
+
+                                               ]
+                                },
+                     "codex":  {
+                                   "model":  "gpt-image-2",
+                                   "quality":  "auto",
+                                   "background":  "auto"
+                               }
+                 },
+    "persona":  {
+                    "current":  "dafeiyu"
+                },
+    "group":  {
+                  "wakeWords":  [
+                                    "大肥鱼",
+                                    "肥鱼"
+                                ],
+                  "interjectChance":  0.15,
+                  "cooldownSec":  90,
+                  "maxPerHour":  6,
+                  "quietHours":  [
+                                     1,
+                                     8
+                                 ],
+                  "minRecentMessages":  3,
+                  "activeWindowSec":  300,
+                  "interests":  [
+                                    "白米饭",
+                                    "米饭",
+                                    "吃饭",
+                                    "好吃",
+                                    "饿了",
+                                    "游戏",
+                                    "追剧",
+                                    "番剧",
+                                    "动漫",
+                                    "猫",
+                                    "狗",
+                                    "鲸鱼",
+                                    "鱼",
+                                    "睡觉",
+                                    "熬夜",
+                                    "困",
+                                    "天气",
+                                    "下雨",
+                                    "表情包",
+                                    "女仆",
+                                    "可爱",
+                                    "奶茶",
+                                    "甜品"
+                                ],
+                  "minRelevance":  0.25,
+                  "burstMax":  8,
+                  "burstWindowSec":  120,
+                  "overrides":  {
+
+                                },
+                  "ownerBrief":  {
+                                     "enabled":  false,
+                                     "lines":  12,
+                                     "groups":  [
+
+                                                ]
+                                 }
+              },
+    "titleFilter":  {
+                        "enabled":  true,
+                        "groups":  [
+
+                                   ],
+                        "title":  "大肥鱼"
+                    },
+    "voice":  {
+                  "enabled":  true,
+                  "engine":  "cosyvoice",
+                  "cosyvoice":  {
+                                    "url":  "http://127.0.0.1:50000",
+                                    "mode":  "instruct",
+                                    "spkId":  "中文女",
+                                    "instruct":  "甜美撒娇的语气",
+                                    "sampleRate":  22050
+                                },
+                  "gptsovits":  {
+                                    "url":  "http://127.0.0.1:9880",
+                                    "refAudio":  "",
+                                    "promptText":  "",
+                                    "promptLang":  "zh",
+                                    "textLang":  "zh"
+                                },
+                  "http":  {
+                               "urlTemplate":  ""
+                           },
+                  "voice":  "zh-CN-XiaoyiNeural",
+                  "rate":  "+0%",
+                  "pitch":  "+0Hz",
+                  "autoChance":  0.15,
+                  "autoMaxChars":  80,
+                  "asr":  true,
+                  "songVoice":  "",
+                  "songPitch":  0
+              },
+    "stickers":  {
+                     "enabled":  true,
+                     "faces":  true,
+                     "autoChance":  0.22,
+                     "collect":  true,
+                     "collectMode":  "ask",
+                     "fromGroups":  true,
+                     "fromPrivate":  true,
+                     "maxPerHour":  10,
+                     "maxLibrary":  300,
+                     "caption":  true
+                 },
+    "diary":  {
+                  "enabled":  true,
+                  "timesPerDay":  3,
+                  "windowStart":  "10:00",
+                  "windowEnd":  "23:30",
+                  "minGapMinutes":  180,
+                  "attachImage":  true,
+                  "minChars":  60,
+                  "maxChars":  140,
+                  "visibility":  "all",
+                  "audienceQQs":  ""
+              },
+    "local":  {
+                  "tts":  false,
+                  "image":  false,
+                  "song":  false,
+                  "asr":  false
+              },
+    "bili":  {
+                 "enabled":  true,
+                 "sessdata":  "",
+                 "biliJct":  "",
+                 "cookie":  "",
+                 "autoBrowse":  true,
+                 "intervalHours":  4,
+                 "maxRunsPerDay":  3,
+                 "perRun":  3,
+                 "keywords":  [
+
+                              ],
+                 "minViews":  5000,
+                 "maxAgeDays":  60,
+                 "comment":  true,
+                 "maxCommentsPerDay":  3,
+                 "reply":  true,
+                 "maxRepliesPerDay":  6,
+                 "shareToOwner":  true,
+                 "like":  false,
+                 "vision":  true,
+                 "visionFrames":  6,
+                 "ffmpegPath":  "",
+                 "shotChance":  0.55,
+                 "shotLibrary":  300
+             },
+    "douyin":  {
+                   "enabled":  true,
+                   "autoBrowse":  true,
+                   "intervalHours":  4,
+                   "maxRunsPerDay":  3,
+                   "perRun":  10,
+                   "maxWatchPerDay":  30,
+                   "dwellMin":  8,
+                   "dwellMax":  40,
+                   "browserPath":  "",
+                   "shareBias":  "proactive",
+                   "ownerDm":  true,
+                   "dmPollMinutes":  5,
+                   "shareTo":  "both",
+                   "owner":  {
+                                 "input":  "63435144039",
+                                 "secUid":  "",
+                                 "uid":  "",
+                                 "nickname":  "",
+                                 "confirmedInput":  ""
+                             },
+                   "caps":  {
+                                "like":  30,
+                                "comment":  3,
+                                "share":  5,
+                                "atOwner":  3
+                            },
+                   "gate":  {
+                                "maxWritesPerDay":  40,
+                                "minWriteGapSec":  20,
+                                "newAccountDays":  3
+                            }
+               },
+    "heybox":  {
+                   "enabled":  false,
+                   "cookie":  "",
+                   "autoBrowse":  true,
+                   "intervalHours":  4,
+                   "maxRunsPerDay":  6,
+                   "perRun":  3,
+                   "likeDaily":  10,
+                   "commentDaily":  3,
+                   "maxPostsPerDay":  3,
+                   "defaultTopic":  7214,
+                   "postStyle":  "mix"
+               },
+    "qzoneSocial":  {
+                        "enabled":  true,
+                        "replyOwn":  true,
+                        "commentFriends":  true,
+                        "friendChance":  0.3,
+                        "ownerChance":  0.7,
+                        "like":  true,
+                        "maxPerDay":  8,
+                        "intervalMin":  30
+                    },
+    "speakUp":  {
+                    "enabled":  false,
+                    "idleMinutes":  40,
+                    "minIntervalMinutes":  60,
+                    "maxIntervalMinutes":  180,
+                    "maxPerDay":  4,
+                    "nudge":  true,
+                    "awakeFrom":  8,
+                    "awakeTo":  23
+                },
+    "mood":  {
+                 "enabled":  true,
+                 "halfLifeHours":  3,
+                 "judge":  true
+             },
+    "memory":  {
+                   "enabled":  true,
+                   "recallCount":  6,
+                   "dailyConsolidate":  true,
+                   "consolidateTimes":  [
+                                            "04:00",
+                                            "16:00"
+                                        ]
+               },
+    "song":  {
+                 "enabled":  true,
+                 "root":  "E:\\Aurabot\\rvc",
+                 "voice":  "",
+                 "pitch":  0,
+                 "neteaseCookie":  "",
+                 "separatorModel":  "model_bs_roformer_ep_317_sdr_12.9755.ckpt",
+                 "maxVoiceSec":  120,
+                 "clipStart":  "auto",
+                 "vocalVolume":  1,
+                 "instVolume":  0.8,
+                 "ownerOnly":  true,
+                 "keepWork":  false,
+                 "pypiMirror":  "auto"
+             },
+    "tabs":  {
+
+             },
+    "modules":  {
+                    "voice":  {
+                                  "useBuiltin":  false,
+                                  "forkedFrom":  "1.0.0",
+                                  "enabled":  true
+                              }
+                },
+    "safeMode":  false,
+    "ext":  {
+                "purpose":  {
+                                "enabled":  true
+                            }
+            },
+    "bridge":  {
+                   "dshTools":  false,
+                   "http":  false,
+                   "token":  "",
+                   "allowTargets":  "whitelist"
+               }
+}
