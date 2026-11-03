@@ -4,7 +4,7 @@
     "setupDone":  true,
     "botQQ":  "235286703",
     "ownerQQ":  "1450520453",
-    "ownerName":  "主人",
+    "ownerName":  "老大",
     "ownerLevel":  "full",
     "profilePerms":  {
                          "qqNickname":  "owner",
@@ -27,11 +27,14 @@
     "longTasks":  false,
     "allow":  {
                   "private":  [
-                                  "2339801179"
+                                  "2339801179",
+                                  "3148980355"
                               ],
                   "groups":  [
                                  "779137146",
-                                 "1016983755"
+                                 "1016983755",
+                                 "730837086",
+                                 "1091456838"
                              ]
               },
     "gateway":  "snowluma",
@@ -44,7 +47,7 @@
                            ]
               },
     "security":  {
-                     "dangerConfirm":  false
+                     "dangerConfirm":  true
                  },
     "snowluma":  {
                      "dir":  "E:\\qqbot\\tools\\SnowLuma",
@@ -121,12 +124,11 @@
                 },
     "group":  {
                   "wakeWords":  [
-                                    "大肥鱼",
-                                    "肥鱼"
+                                    "豆浆"
                                 ],
                   "interjectChance":  0.15,
-                  "cooldownSec":  90,
-                  "maxPerHour":  6,
+                  "cooldownSec":  140,
+                  "maxPerHour":  5,
                   "quietHours":  [
                                      1,
                                      8
@@ -134,19 +136,7 @@
                   "minRecentMessages":  3,
                   "activeWindowSec":  300,
                   "interests":  [
-                                    "白米饭",
-                                    "米饭",
-                                    "吃饭",
-                                    "好吃",
-                                    "饿了",
-                                    "游戏",
-                                    "追剧",
-                                    "番剧",
-                                    "动漫",
-                                    "猫",
-                                    "狗",
-                                    "鲸鱼",
-                                    "鱼",
+                                    "豆浆",
                                     "睡觉",
                                     "熬夜",
                                     "困",
@@ -156,7 +146,8 @@
                                     "女仆",
                                     "可爱",
                                     "奶茶",
-                                    "甜品"
+                                    "甜品",
+                                    "拍照"
                                 ],
                   "minRelevance":  0.25,
                   "burstMax":  8,
@@ -211,7 +202,7 @@
     "stickers":  {
                      "enabled":  true,
                      "faces":  true,
-                     "autoChance":  0.22,
+                     "autoChance":  0.23,
                      "collect":  true,
                      "collectMode":  "ask",
                      "fromGroups":  true,
@@ -233,8 +224,8 @@
                   "audienceQQs":  ""
               },
     "local":  {
-                  "tts":  false,
-                  "image":  false,
+                  "tts":  true,
+                  "image":  true,
                   "song":  false,
                   "asr":  false
               },

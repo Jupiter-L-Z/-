@@ -55,6 +55,38 @@
       "createdAt": 1793687772140,
       "title": "QQ 私聊 · Lavender.",
       "model": "deepseek::deepseek-flash::low"
+    },
+    "group:730837086": {
+      "sessionId": "session-d8aa8999-6e98-4cd2-b7dc-b18a237255e5",
+      "preset": "aurabot-social",
+      "level": "social",
+      "createdAt": 1793689014285,
+      "title": "QQ 群 · 宜宾三中下水道联谊会",
+      "model": "deepseek::deepseek-flash::low"
+    },
+    "group:1091456838": {
+      "sessionId": "session-c98a8836-84c4-41b3-8411-b2468d6bbf16",
+      "preset": "aurabot-social",
+      "level": "social",
+      "createdAt": 1793689498675,
+      "title": "QQ 群 · 小团体（倒计时48天）",
+      "model": "deepseek::deepseek-flash::low"
+    },
+    "group:779137146": {
+      "sessionId": "session-dbd18e85-0dbb-4129-8fe4-40d140e1b660",
+      "preset": "aurabot-social",
+      "level": "social",
+      "createdAt": 1793690583165,
+      "title": "QQ 群 · Moon、蕨类植物沉思录",
+      "model": "deepseek::deepseek-flash::low"
+    },
+    "private:3148980355": {
+      "sessionId": "session-84580acb-c17d-43d2-9c4f-02b688ec1b37",
+      "preset": "aurabot-social",
+      "level": "social",
+      "createdAt": 1793690975589,
+      "title": "QQ 私聊 · 3148980355",
+      "model": "deepseek::deepseek-flash::low"
     }
   }
 }
