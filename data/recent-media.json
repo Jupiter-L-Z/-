@@ -1,62 +1,18 @@
 {
-  "group:1091456838": [
-    {
-      "seg": {
-        "type": "image",
-        "data": {
-          "url": "https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhT_TC-CDUAPVbY3WFaHZ8qaVqAYkxiLm1cg_woo0v6ko5LxlwMyBHByb2RQgL2jAVoQCDf5158LFEBtN8BlJMZJLHoCvWWCAQJneg&spec=0&rkey=CAISMDwu70mdsKIsVVW2mu1qfCWi9LeX6NRYK3WdQRVkIaDHy2Hl_Ph_dLLcTksVJxTO4Q",
-          "file": "7F88B455CAD9C046DCA826154C491BB1.png",
-          "sub_type": 1,
-          "summary": "[动画表情]"
-        }
-      },
-      "userId": "1226115639",
-      "sticker": true,
-      "at": 1793892485999
-    },
-    {
-      "seg": {
-        "type": "image",
-        "data": {
-          "url": "https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhSd6q1LL6FR0tfXhq-ROQrvPq4adxjk-QYg_woo46etpZbxlwMyBHByb2RQgL2jAVoQ8Pd4IdxeMnRF66MkDj0gYHoCpWqCAQJneg&spec=0&rkey=CAISMDwu70mdsKIsVVW2mu1qfCWi9LeX6NRYK3WdQRVkIaDHy2Hl_Ph_dLLcTksVJxTO4Q",
-          "file": "51433E7B862BA84A20D8905E2FA476C4.png",
-          "sub_type": 0,
-          "summary": "[图片]"
-        }
-      },
-      "userId": "1226115639",
-      "sticker": false,
-      "at": 1793893564074
-    }
-  ],
   "group:1016983755": [
     {
       "seg": {
         "type": "image",
         "data": {
-          "url": "https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhQ0ArvkginIMJ3JgV95Olo0SnH2jRjw6BAg_woozvzl4pTxlwMyBHByb2RQgL2jAVoQNQ6d7CNedTrZp9gRuOrraXoCWfGCAQJuag&spec=0&rkey=CAISMDwu70mdsKIsVVW2mu1qfCWi9LeX6NRYK3WdQRVkIaDHy2Hl_Ph_dLLcTksVJxTO4Q",
-          "file": "49B0F90B9633C789ECECA670F5C604EA.png",
+          "url": "https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhQaNQ06XVQrQ-nUXMlHTw1GPlvpyxjauxMg_woo5syhw__4lwMyBHByb2RQgL2jAVoQ0sHZfM5vHpZFgqQBXlfJz3oCOa2CAQJuag&spec=0&rkey=CAQSMLbQBXD9pW6_kH-Fiaq7Zed28eGURg_-LislGgI3j4arp8sv54_19-RfzpYrsUsvNQ",
+          "file": "DB9DF52597C8CD8AA4748697B333FC4F.png",
           "sub_type": 0,
           "summary": "[图片]"
         }
       },
       "userId": "2780393685",
       "sticker": false,
-      "at": 1793893156138
-    },
-    {
-      "seg": {
-        "type": "image",
-        "data": {
-          "url": "https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhTSzaTXRtvVCme3tOxHiByq-ZguDBjG3wcg_woonr7-_5TxlwMyBHByb2RQgL2jAVoQGDLzC3g2WVjYVkDrjSYwKnoCNiyCAQJuag&spec=0&rkey=CAISMDwu70mdsKIsVVW2mu1qfCWi9LeX6NRYK3WdQRVkIaDHy2Hl_Ph_dLLcTksVJxTO4Q",
-          "file": "D9D966FA462FEE63583F0CD487BD329B.jpg",
-          "sub_type": 0,
-          "summary": "[图片]"
-        }
-      },
-      "userId": "1369630301",
-      "sticker": false,
-      "at": 1793893217429
+      "at": 1794162331514
     }
   ]
 }

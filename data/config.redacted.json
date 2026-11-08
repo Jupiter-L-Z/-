@@ -2,16 +2,28 @@
     "enabled":  true,
     "dryRun":  false,
     "setupDone":  true,
+    "communityMigrated":  {
+                              "heybox":  "skipped",
+                              "pet":  "installed",
+                              "douyin":  "installed",
+                              "group-admin":  "installed"
+                          },
     "botQQ":  "235286703",
     "ownerQQ":  "1450520453",
     "ownerName":  "老大",
     "ownerLevel":  "full",
+    "approvalNotify":  true,
+    "qqApi":  {
+                  "enabled":  true
+              },
+    "approvalViaQQ":  true,
     "profilePerms":  {
                          "qqNickname":  "owner",
                          "qqSignature":  "owner",
                          "qqAvatar":  "owner",
                          "biliSign":  "owner",
                          "biliAvatar":  "owner",
+                         "biliComment":  "owner",
                          "qqFriendRequest":  "owner",
                          "whitelist":  "owner",
                          "douyinBrowse":  "owner",
@@ -25,6 +37,7 @@
                          "heyboxPost":  "owner"
                      },
     "longTasks":  false,
+    "subagentBackground":  false,
     "allow":  {
                   "private":  [
                                   "2339801179",
@@ -45,13 +58,20 @@
                                   "2583073693",
                                   "3510563551",
                                   "1623746192",
-                                  "1327536037"
+                                  "1327536037",
+                                  "904022857",
+                                  "3442083503",
+                                  "2175342893",
+                                  "2295677363"
                               ],
                   "groups":  [
                                  "779137146",
+                                 "480477163",
                                  "1016983755",
+                                 "1131494009",
                                  "730837086",
-                                 "1091456838"
+                                 "1091456838",
+                                 "904022857"
                              ]
               },
     "gateway":  "snowluma",
@@ -59,13 +79,27 @@
     "files":  {
                   "enabled":  true,
                   "maxMB":  50,
+                  "imageByPath":  true,
                   "dirs":  [
 
                            ]
               },
     "security":  {
-                     "dangerConfirm":  true
+                     "dangerConfirm":  true,
+                     "ssrfMode":  "strict",
+                     "panelRemoteAccess":  false,
+                     "trustedProxy":  "",
+                     "publicHostname":  ""
                  },
+    "cost":  {
+                 "offPeak":  true,
+                 "offPeakHolidays":  [
+
+                                     ]
+             },
+    "update":  {
+                   "unstable":  false
+               },
     "snowluma":  {
                      "dir":  "E:\\qqbot\\tools\\SnowLuma",
                      "autoStart":  true,
@@ -79,20 +113,20 @@
                      "wsToken":  ""
                  },
     "model":  {
-                  "provider":  "gpt",
-                  "model":  "gpt-6-astra",
+                  "provider":  "dj",
+                  "model":  "deepseek-v4.1-flash",
                   "reasoningEffort":  "high",
-                  "vision":  "auto"
+                  "vision":  "on"
               },
     "chatModels":  {
                        "privateDefault":  {
-                                              "provider":  "gpt",
-                                              "model":  "gpt-6",
+                                              "provider":  "",
+                                              "model":  "",
                                               "reasoningEffort":  ""
                                           },
                        "groupDefault":  {
-                                            "provider":  "gpt",
-                                            "model":  "gpt-6",
+                                            "provider":  "",
+                                            "model":  "",
                                             "reasoningEffort":  ""
                                         },
                        "privates":  {
@@ -110,17 +144,18 @@
                   "groupMaxSec":  15
               },
     "imageGen":  {
-                     "enabled":  false,
-                     "provider":  "custom",
-                     "baseUrl":  "https://www.heilovehei.com",
+                     "enabled":  true,
+                     "provider":  "openai",
+                     "baseUrl":  "https://ntmd.cn/v1",
                      "apiKey":  "",
-                     "model":  "",
+                     "model":  "gpt-image-2.5",
                      "size":  "1024x1024",
                      "shape":  "her",
                      "stylePrompt":  "",
-                     "ownerOnly":  true,
-                     "seeOwn":  true,
-                     "galleryShown":  19,
+                     "ownerOnly":  false,
+                     "seeOwn":  false,
+                     "img2img":  true,
+                     "galleryShown":  30,
                      "custom":  {
                                     "method":  "POST",
                                     "url":  "",
@@ -166,11 +201,18 @@
                                     "甜品",
                                     "拍照"
                                 ],
-                  "minRelevance":  0.75,
+                  "minRelevance":  0.65,
+                  "engagedMax":  6,
                   "burstMax":  7,
                   "burstWindowSec":  90,
                   "overrides":  {
-
+                                    "904022857":  {
+                                                      "interjectChance":  0,
+                                                      "minRelevance":  0.1
+                                                  },
+                                    "1091456838":  {
+                                                       "interjectChance":  0
+                                                   }
                                 },
                   "ownerBrief":  {
                                      "enabled":  true,
@@ -178,7 +220,9 @@
                                      "groups":  [
 
                                                 ]
-                                 }
+                                 },
+                  "ignoreAtOthers":  true,
+                  "crossRead":  "private"
               },
     "titleFilter":  {
                         "enabled":  true,
@@ -206,14 +250,19 @@
                                     "textLang":  "zh"
                                 },
                   "http":  {
-                               "urlTemplate":  "https://api.breeze.blue/v1"
+                               "urlTemplate":  "https://api.breeze.blue/v1",
+                               "method":  "GET",
+                               "headers":  "",
+                               "body":  "",
+                               "sampleRate":  24000
                            },
                   "voice":  "zh-CN-XiaoyiNeural",
                   "rate":  "+0%",
                   "pitch":  "-10Hz",
                   "autoChance":  0.11,
-                  "autoMaxChars":  15,
+                  "autoMaxChars":  25,
                   "asr":  true,
+                  "emojiSeparate":  true,
                   "songVoice":  "",
                   "songPitch":  0
               },
@@ -227,7 +276,11 @@
                      "fromPrivate":  true,
                      "maxPerHour":  10,
                      "maxLibrary":  300,
-                     "caption":  true
+                     "caption":  true,
+                     "captionModel":  {
+                                          "provider":  "",
+                                          "model":  ""
+                                      }
                  },
     "diary":  {
                   "enabled":  true,
@@ -236,21 +289,36 @@
                   "windowEnd":  "23:30",
                   "minGapMinutes":  180,
                   "attachImage":  false,
+                  "rich":  {
+                               "enabled":  true,
+                               "stickers":  false,
+                               "browsing":  true,
+                               "local":  false,
+                               "folder":  "",
+                               "maxImages":  2
+                           },
+                  "archive":  {
+                                  "enabled":  true,
+                                  "folder":  ""
+                              },
                   "minChars":  60,
                   "maxChars":  103,
-                  "visibility":  "all",
+                  "visibility":  "self",
                   "audienceQQs":  ""
               },
     "local":  {
                   "tts":  true,
-                  "image":  true,
-                  "song":  true,
-                  "asr":  true
+                  "image":  false,
+                  "song":  false,
+                  "asr":  true,
+                  "video":  false,
+                  "videoTimeoutMin":  20
               },
     "bili":  {
                  "enabled":  false,
                  "sessdata":  "",
                  "biliJct":  "",
+                 "ownerName":  "",
                  "cookie":  "",
                  "autoBrowse":  true,
                  "intervalHours":  12,
@@ -268,6 +336,9 @@
                  "maxCommentsPerDay":  3,
                  "reply":  true,
                  "maxRepliesPerDay":  6,
+                 "danmakuEnabled":  false,
+                 "autoDanmaku":  false,
+                 "maxDanmakuPerDay":  3,
                  "shareToOwner":  true,
                  "like":  true,
                  "vision":  true,
@@ -320,7 +391,22 @@
                    "commentDaily":  3,
                    "maxPostsPerDay":  3,
                    "defaultTopic":  7214,
-                   "postStyle":  "mix"
+                   "postStyle":  "mix",
+                   "shareToOwner":  true,
+                   "shareBias":  "normal",
+                   "shareDaily":  3,
+                   "topicMode":  "manual",
+                   "postWordsMin":  0,
+                   "postWordsMax":  0,
+                   "dailyPosts":  [
+
+                                  ],
+                   "offPeakOnly":  false,
+                   "peakStartAM":  9,
+                   "peakEndAM":  12,
+                   "peakStartPM":  14,
+                   "peakEndPM":  18,
+                   "peakWeekend":  false
                },
     "qzoneSocial":  {
                         "enabled":  true,
@@ -333,11 +419,14 @@
                         "intervalMin":  60
                     },
     "speakUp":  {
-                    "enabled":  false,
+                    "enabled":  true,
                     "idleMinutes":  40,
                     "minIntervalMinutes":  60,
                     "maxIntervalMinutes":  180,
-                    "maxPerDay":  5,
+                    "maxPerDay":  3,
+                    "allow":  [
+
+                              ],
                     "nudge":  true,
                     "awakeFrom":  8,
                     "awakeTo":  23
@@ -345,16 +434,80 @@
     "mood":  {
                  "enabled":  true,
                  "halfLifeHours":  4,
-                 "judge":  true
+                 "judge":  true,
+                 "base":  60
+             },
+    "chat":  {
+                 "seedHistory":  false,
+                 "seedHistoryCount":  20
              },
     "memory":  {
                    "enabled":  true,
                    "recallCount":  9,
+                   "recallMode":  "always",
+                   "recallTriggers":  [
+                                          "上次",
+                                          "上回",
+                                          "之前",
+                                          "以前",
+                                          "那天",
+                                          "那次",
+                                          "还记得",
+                                          "记不记得",
+                                          "说过",
+                                          "提过",
+                                          "答应",
+                                          "约好",
+                                          "那时候"
+                                      ],
                    "dailyConsolidate":  true,
                    "consolidateTimes":  [
                                             "04:00",
                                             "16:00"
-                                        ]
+                                        ],
+                   "keepChatlogDays":  7,
+                   "keepChatlogSet":  true,
+                   "mergeGroups":  true,
+                   "compress":  true,
+                   "compressAfterDays":  14,
+                   "instantCommands":  true,
+                   "groupMemory":  true,
+                   "searchRrf":  true,
+                   "profileFieldChars":  40,
+                   "profilePeople":  2,
+                   "profileChars":  240,
+                   "chatImpression":  true,
+                   "chatImpressionChars":  120,
+                   "dislikeSilence":  0.85,
+                   "shortTerm":  true,
+                   "shortTermHours":  2,
+                   "shortTermIdleMinutes":  3,
+                   "shortTermChars":  150,
+                   "gistEnabled":  true,
+                   "gistDays":  180,
+                   "impressionDays":  365,
+                   "gistDailyBatches":  6,
+                   "tierDays":  {
+                                    "1":  7,
+                                    "2":  30,
+                                    "3":  100
+                                },
+                   "extractIdleMinutes":  30,
+                   "extractMinLines":  20,
+                   "extractDailyBatches":  24,
+                   "capacity":  {
+                                    "auto":  2000,
+                                    "event":  600,
+                                    "diary":  400
+                                },
+                   "eventExpireDays":  90,
+                   "vector":  {
+                                  "enabled":  true,
+                                  "baseUrl":  "",
+                                  "model":  "",
+                                  "apiKey":  ""
+                              },
+                   "crossContext":  true
                },
     "song":  {
                  "enabled":  true,
@@ -385,27 +538,80 @@
                                    "useBuiltin":  false
                                },
                     "mood":  {
-                                 "useBuiltin":  false,
+                                 "useBuiltin":  true,
                                  "forkedFrom":  "1.0.0",
                                  "enabled":  true
                              },
                     "speakup":  {
-                                    "useBuiltin":  false,
+                                    "useBuiltin":  true,
                                     "forkedFrom":  "1.0.0",
-                                    "enabled":  true
+                                    "enabled":  false
                                 },
                     "scheduler":  {
                                       "enabled":  false,
                                       "useBuiltin":  false
-                                  }
+                                  },
+                    "todo":  {
+                                 "enabled":  true,
+                                 "useBuiltin":  false
+                             }
                 },
     "safeMode":  false,
     "ext":  {
                 "purpose":  {
-                                "enabled":  true,
+                                "enabled":  false,
                                 "pacing":  "active"
                             },
                 "pet":  {
+                            "carrier":  "qq",
+                            "modality":  "text",
+                            "petFallbackToQQ":  true,
+                            "pack":  "default",
+                            "petPackUrl":  "https://github.com/accomplish07zrh-eng/dsh-aurabot-qq-mods/archive/refs/heads/main.zip",
+                            "electronMirror":  "https://npmmirror.com/mirrors/electron/",
+                            "whisperEnabled":  true,
+                            "whisperSource":  "model",
+                            "whisperMinMinutes":  45,
+                            "whisperMaxMinutes":  120,
+                            "whisperMaxPerDay":  6,
+                            "whisperLines":  "",
+                            "whisperPauseOnPetCarrier":  true,
+                            "workStatusEnabled":  true,
+                            "workBubble":  true,
+                            "workNotify":  true,
+                            "behaviorMinMinutes":  10,
+                            "behaviorMaxMinutes":  25,
+                            "behaviorMaxPerDay":  99999,
+                            "behaviorIdleCursorMinutes":  8,
+                            "behaviorMoodCloseWindowBelow":  35,
+                            "behaviorCloseWindowEnabled":  false,
+                            "behaviorIconMischiefEnabled":  true,
+                            "behaviorIconQuarantineDays":  7,
+                            "behaviorWindowWhitelist":  "",
+                            "chatBehaviorEnabled":  false,
+                            "chatBehaviorWhitelist":  "",
+                            "chatBehaviorCooldownMinutes":  5,
+                            "chatBehaviorMaxPerDay":  20,
+                            "petScale":  1,
+                            "petReleaseLand":  true,
+                            "petGravity":  1400,
+                            "petRestitution":  0.78,
+                            "petAnimRate":  1,
+                            "petShowBalance":  true,
+                            "petClickChase":  false,
+                            "petTeaseChase":  false,
+                            "petChatEnabled":  false,
+                            "petChatHotkey":  "Alt+P",
+                            "petChatCloseKeyword":  "关闭",
+                            "petChatBlurHide":  true,
+                            "petChatMaxEntries":  200,
+                            "petChatRetentionDays":  30,
+                            "petWeatherCity":  "",
+                            "petWeatherUrl":  "",
+                            "publicBaseUrl":  "",
+                            "allowInsecureRemote":  false,
+                            "tokenTtlDays":  0,
+                            "trustedProxy":  "",
                             "behaviorEnabled":  true,
                             "behaviorDisabledActions":  "nudge_window,close_window,hide_icon,steal_cursor,say"
                         },
@@ -424,13 +630,84 @@
                               "allowRead":  true,
                               "replies":  "早安=早呀～今天也要元气满满\n晚安=晚安，做个好梦",
                               "onlyOwner":  false,
-                              "morningPlan":  "[{\"chatId\":\"private:2754913695\",\"idea\":\"有点想他，随口问一句\",\"at\":1793924528922,\"sent\":false},{\"chatId\":\"private:1725620044\",\"idea\":\"刚睡醒，挺有精神，想找人说两句\",\"at\":1793924684422,\"sent\":false},{\"chatId\":\"private:1024674089\",\"idea\":\"闲着没事，想找人搭两句话\",\"at\":1793925341975,\"sent\":false},{\"chatId\":\"private:2583073693\",\"idea\":\"有点想他，随口问一句\",\"at\":1793925392052,\"sent\":false},{\"chatId\":\"private:1536086318\",\"idea\":\"今天天气不错，想说点什么\",\"at\":1793927587898,\"sent\":false},{\"chatId\":\"private:1159006028\",\"idea\":\"心情莫名挺好，想跟人说句话\",\"at\":1793929153047,\"sent\":false},{\"chatId\":\"private:2270848334\",\"idea\":\"今天天气不错，想说点什么\",\"at\":1793929303114,\"sent\":false}]"
+                              "morningPlan":  "[{\"chatId\":\"private:2754913695\",\"idea\":\"有点想他，随口问一句\",\"at\":1793924528922,\"sent\":true},{\"chatId\":\"private:1725620044\",\"idea\":\"刚睡醒，挺有精神，想找人说两句\",\"at\":1793924684422,\"sent\":true},{\"chatId\":\"private:1024674089\",\"idea\":\"闲着没事，想找人搭两句话\",\"at\":1793925341975,\"sent\":true},{\"chatId\":\"private:2583073693\",\"idea\":\"有点想他，随口问一句\",\"at\":1793925392052,\"sent\":true},{\"chatId\":\"private:1536086318\",\"idea\":\"今天天气不错，想说点什么\",\"at\":1793927587898,\"sent\":false},{\"chatId\":\"private:1159006028\",\"idea\":\"心情莫名挺好，想跟人说句话\",\"at\":1793929153047,\"sent\":false},{\"chatId\":\"private:2270848334\",\"idea\":\"今天天气不错，想说点什么\",\"at\":1793929303114,\"sent\":false}]"
                           },
                 "scheduler":  {
+                                  "crossChatUsers":  "1450520453",
                                   "enabled":  true,
-                                  "gapMinutes":  15,
+                                  "gapMinutes":  1,
                                   "maxPerScan":  10
-                              }
+                              },
+                "history-vault":  {
+                                      "enabled":  true,
+                                      "recordGroups":  true,
+                                      "groupList":  "",
+                                      "privateList":  "1450520453",
+                                      "keepDays":  0,
+                                      "compressAfterDays":  1,
+                                      "monthAfterDays":  32,
+                                      "dailyCalls":  24,
+                                      "injectDays":  3,
+                                      "injectChars":  700
+                                  },
+                "todo":  {
+                             "autonomousEnabled":  true,
+                             "greetingsCandidates":  "",
+                             "greetingsEnabled":  true,
+                             "greetingsMorningMin":  0,
+                             "greetingsMorningMax":  1,
+                             "greetingsEveningMin":  0,
+                             "greetingsEveningMax":  1,
+                             "greetingsLastDay":  "2026-11-09",
+                             "enabled":  true,
+                             "gapMinutes":  1,
+                             "crossChatUsers":  "1450520453，1327536037",
+                             "maxPerScan":  10,
+                             "greetingsMorningCandidates":  "1327536037\n1624361152\n1024674089\n2270848334\n2385536435\n904739087\n3288472729",
+                             "greetingsEveningCandidates":  "1327536037\n1624361152\n1024674089\n2270848334\n2385536435\n904739087\n3288472729",
+                             "greetingsMorningEnabled":  true
+                         },
+                "browser-ops":  {
+                                    "enabled":  false,
+                                    "ownerOnly":  true,
+                                    "browserPath":  "",
+                                    "windowVisible":  false,
+                                    "snapshotChars":  3000,
+                                    "navigateTimeoutMs":  15000,
+                                    "whitelist":  "",
+                                    "injectGuides":  true
+                                },
+                "meme-wiki":  {
+                                  "enabled":  true,
+                                  "autoSync":  true,
+                                  "syncHours":  12,
+                                  "maxHints":  2,
+                                  "hintChars":  300,
+                                  "toolChars":  1600
+                              },
+                "dream":  {
+                              "auto":  true,
+                              "startHour":  1,
+                              "endHour":  6,
+                              "wakeHour":  7,
+                              "idleMinutes":  20,
+                              "retention":  60,
+                              "mood":  true,
+                              "morningShare":  false
+                          },
+                "windows-ops":  {
+                                    "enabled":  false,
+                                    "opsWhitelist":  "",
+                                    "allowInput":  false,
+                                    "confirmDanger":  true,
+                                    "dryRun":  false,
+                                    "rateLimit":  60,
+                                    "powershellPath":  "",
+                                    "preferUia":  true
+                                },
+                "fujiang":  {
+                                "enabled":  false
+                            }
             },
     "bridge":  {
                    "dshTools":  false,

@@ -6,15 +6,15 @@
       "level": "social",
       "createdAt": 1793684383570,
       "title": "QQ Ã‚Â· Ã§Â©ÂºÃ©â€”Â´Ã¦â€”Â¥Ã¨Â®Â°",
-      "model": "deepseek::deepseek-flash::high"
+      "model": "gpt::gpt-6-astra::"
     },
     "private:1450520453": {
-      "sessionId": "session-03e6debd-599a-4f50-bd42-f478a9109920",
+      "sessionId": "session-fda56551-223e-409e-8f96-cba763963088",
       "preset": "aurabot-private",
       "level": "full",
-      "createdAt": 1793892182076,
+      "createdAt": 1794126935845,
       "title": "QQ · 老大私聊",
-      "model": "gpt::gpt-6::"
+      "model": "dj::deepseek-v4.1-flash::"
     },
     "system:bili": {
       "sessionId": "session-e1563c50-02ac-4331-9fe7-087472b2b00b",
@@ -30,7 +30,7 @@
       "level": "social",
       "createdAt": 1793685553198,
       "title": "QQ Ã‚Â· QQ Ã‚Â· Ã¥Ë†Â·Ã¦Å â€“Ã©Å¸Â³",
-      "model": "deepseek::deepseek-flash::high"
+      "model": "dj::deepseek-v4.1-flash::"
     },
     "group:1016983755": {
       "sessionId": "session-6e01e2a8-b076-4315-b046-79145923f89e",
@@ -38,7 +38,7 @@
       "level": "social",
       "createdAt": 1793686167190,
       "title": "QQ Ã§Â¾Â¤ Ã‚Â· Ã©â€¦â€™Ã©Â¦â€ ",
-      "model": "deepseek-official::deepseek-flash::high"
+      "model": "dj::deepseek-v4.1-flash::"
     },
     "system:purpose": {
       "sessionId": "session-077cf6e5-ea0f-44ee-aa46-6ccdee1ef92b",
@@ -46,7 +46,7 @@
       "level": "chat",
       "createdAt": 1793686716376,
       "title": "QQ Ã‚Â· QQ Ã‚Â· Ã¤Â¸Â»Ã¥Å Â¨Ã¦ÂÂ­Ã¨Â¯ÂÃ¯Â¼Ë†Ã§â€ºÂ®Ã§Å¡â€žÃ¥â€ºÅ¾Ã¥ÂË†Ã¯Â¼â€°",
-      "model": "deepseek::deepseek-flash::high"
+      "model": "dj::deepseek-v4.1-flash::"
     },
     "private:2339801179": {
       "sessionId": "session-f0b89614-3260-4758-a39d-236fce725672",
@@ -70,7 +70,7 @@
       "level": "social",
       "createdAt": 1793689498675,
       "title": "QQ Ã§Â¾Â¤ Ã‚Â· Ã¥Â°ÂÃ¥â€ºÂ¢Ã¤Â½â€œÃ¯Â¼Ë†Ã¥â‚¬â€™Ã¨Â®Â¡Ã¦â€”Â¶48Ã¥Â¤Â©Ã¯Â¼â€°",
-      "model": "deepseek-official::deepseek-flash::high"
+      "model": "dj::deepseek-v4.1-flash::"
     },
     "group:779137146": {
       "sessionId": "session-dbd18e85-0dbb-4129-8fe4-40d140e1b660",
@@ -78,7 +78,7 @@
       "level": "social",
       "createdAt": 1793690583165,
       "title": "QQ Ã§Â¾Â¤ Ã‚Â· MoonÃ£â‚¬ÂÃ¨â€¢Â¨Ã§Â±Â»Ã¦Â¤ÂÃ§â€°Â©Ã¦Â²â€°Ã¦â‚¬ÂÃ¥Â½â€¢",
-      "model": "deepseek-official::deepseek-flash::high"
+      "model": "dj::deepseek-v4.1-flash::"
     },
     "private:3148980355": {
       "sessionId": "session-84580acb-c17d-43d2-9c4f-02b688ec1b37",
@@ -86,7 +86,7 @@
       "level": "social",
       "createdAt": 1793690975589,
       "title": "QQ Ã§Â§ÂÃ¨ÂÅ  Ã‚Â· 3148980355",
-      "model": "deepseek-official::deepseek-flash::high"
+      "model": "dj::deepseek-v4.1-flash::"
     },
     "private:2385536435": {
       "sessionId": "session-451144c4-6b76-414a-9f73-7887230004ed",
@@ -94,7 +94,7 @@
       "level": "social",
       "createdAt": 1793694650996,
       "title": "QQ Ã§Â§ÂÃ¨ÂÅ  Ã‚Â· 2385536435",
-      "model": "deepseek-official::deepseek-flash::high"
+      "model": "dj::deepseek-v4.1-flash::"
     },
     "private:904739087": {
       "sessionId": "session-de4af511-df76-4efd-8922-5996c240e911",
@@ -118,7 +118,7 @@
       "level": "social",
       "createdAt": 1793695201060,
       "title": "QQ Ã‚Â· QQ Ã‚Â· Ã§Â©ÂºÃ©â€”Â´Ã¤Âºâ€™Ã¥Å Â¨",
-      "model": "deepseek::deepseek-flash::high"
+      "model": "dj::deepseek-v4.1-flash::"
     },
     "system:ext-pet": {
       "sessionId": "session-ad3639d6-5b8e-40ee-8d9e-c456ce0c3678",
@@ -150,15 +150,15 @@
       "level": "social",
       "createdAt": 1793705648778,
       "title": "QQ Ã§Â§ÂÃ¨ÂÅ  Ã‚Â· 3288472729",
-      "model": "deepseek-official::deepseek-flash::high"
+      "model": "dj::deepseek-v4.1-flash::"
     },
     "private:1725620044": {
-      "sessionId": "session-f0aa38cf-e53d-4f1a-b6da-4d8d9dc9ff1d",
+      "sessionId": "session-8a41560f-0647-417b-ac84-378ffad0964c",
       "preset": "aurabot-social",
       "level": "social",
-      "createdAt": 1793705741341,
-      "title": "QQ Ã§Â§ÂÃ¨ÂÅ  Ã‚Â· 1725620044",
-      "model": "deepseek::deepseek-flash::high"
+      "createdAt": 1794046632141,
+      "title": "QQ 私聊 · 蔚竹",
+      "model": "dj::deepseek-v4.1-flash::"
     },
     "private:2754913695": {
       "sessionId": "session-56db8190-d9e6-4fb3-8071-1f5e8cb1bde0",
@@ -166,7 +166,7 @@
       "level": "social",
       "createdAt": 1793706068370,
       "title": "QQ Ã§Â§ÂÃ¨ÂÅ  Ã‚Â· 2754913695",
-      "model": "deepseek-official::deepseek-flash::high"
+      "model": "gpt::gpt-6::"
     },
     "private:1624361152": {
       "sessionId": "session-24ee5be5-bd88-4755-a97b-8880887d9520",
@@ -174,7 +174,7 @@
       "level": "social",
       "createdAt": 1793708076093,
       "title": "QQ Ã§Â§ÂÃ¨ÂÅ  Ã‚Â· 1624361152",
-      "model": "deepseek-official::deepseek-flash::high"
+      "model": "dj::deepseek-v4.1-flash::"
     },
     "private:1024674089": {
       "sessionId": "session-b883272f-b161-4721-85ca-2b8a15b97121",
@@ -182,7 +182,7 @@
       "level": "social",
       "createdAt": 1793716520317,
       "title": "QQ Ã§Â§ÂÃ¨ÂÅ  Ã‚Â· 1024674089",
-      "model": "deepseek-official::deepseek-flash::high"
+      "model": "dj::deepseek-v4.1-flash::"
     },
     "private:1847117292": {
       "sessionId": "session-7b14294c-b782-4ed4-aafe-21568033bc40",
@@ -198,7 +198,7 @@
       "level": "social",
       "createdAt": 1793720536402,
       "title": "QQ Ã§Â§ÂÃ¨ÂÅ  Ã‚Â· 2583073693",
-      "model": "deepseek::deepseek-flash::"
+      "model": "gpt::gpt-6::"
     },
     "private:2270848334": {
       "sessionId": "session-bbe91be0-0f9b-4e56-9dac-b3ba024aeb0a",
@@ -206,7 +206,7 @@
       "level": "social",
       "createdAt": 1793722556036,
       "title": "QQ Ã§Â§ÂÃ¨ÂÅ  Ã‚Â· Ã¥â€™â€“Ã¥â€“Â±Ã©Â¸Â¡",
-      "model": "deepseek-official::deepseek-flash::high"
+      "model": "dj::deepseek-v4.1-flash::"
     },
     "private:1159006028": {
       "sessionId": "session-acb46477-3809-4202-a609-c713f0dce4f9",
@@ -222,7 +222,7 @@
       "level": "chat",
       "createdAt": 1793729293133,
       "title": "QQ Ã‚Â· QQ Ã‚Â· Ã¤Â¸Â»Ã¥Å Â¨Ã¦ÂÂ­Ã¨Â¯ÂÃ¯Â¼Ë†Ã¨Â¿Â½Ã©â€”Â®Ã¯Â¼â€°",
-      "model": "deepseek::deepseek-flash::high"
+      "model": "dj::deepseek-v4.1-flash::"
     },
     "private:1536086318": {
       "sessionId": "session-cf3d7c58-1e7f-436e-b3f5-ba37d6cdc973",
@@ -230,7 +230,7 @@
       "level": "social",
       "createdAt": 1793759569474,
       "title": "QQ Ã§Â§ÂÃ¨ÂÅ  Ã‚Â· Ã¤Â¸ÂÃ¥Â¼â‚¬Ã¥Â¿Æ’Ã§Å¡â€ž31Ã¥ÂÂ·Ã¦Å¸Å“",
-      "model": "deepseek::deepseek-flash::"
+      "model": "dj::deepseek-v4.1-flash::"
     },
     "private:1327536037": {
       "sessionId": "session-f93cec1f-264d-4f91-a247-5b853d67d2bf",
@@ -238,7 +238,47 @@
       "level": "social",
       "createdAt": 1793789103540,
       "title": "QQ 私聊 · 1327536037",
-      "model": "deepseek-official::deepseek-flash::high"
+      "model": "dj::deepseek-v4.1-flash::"
+    },
+    "group:904022857": {
+      "sessionId": "session-d893389a-b61c-4424-b46e-2d5c87e8cb34",
+      "preset": "aurabot-social",
+      "level": "social",
+      "createdAt": 1794026504084,
+      "title": "QQ 群 · 像雾像风又像雨、豆浆",
+      "model": "dj::deepseek-v4.1-flash::"
+    },
+    "private:3442083503": {
+      "sessionId": "session-83b4bb6a-a7aa-4784-b217-edc60b381919",
+      "preset": "aurabot-social",
+      "level": "social",
+      "createdAt": 1794045376577,
+      "title": "QQ 私聊 · 3442083503",
+      "model": "dj::deepseek-v4.1-flash::"
+    },
+    "system:diary:media": {
+      "sessionId": "session-b2998216-a5eb-41e4-98c8-c2b014045aae",
+      "preset": "aurabot-social",
+      "level": "chat",
+      "createdAt": 1794046911406,
+      "title": "QQ · 空间图文日记",
+      "model": "dj::deepseek-v4.1-flash::"
+    },
+    "private:2295677363": {
+      "sessionId": "session-13a5e4a6-aeba-4ffa-9783-3edb0b0c30a6",
+      "preset": "aurabot-social",
+      "level": "social",
+      "createdAt": 1794068688384,
+      "title": "QQ 私聊 · 2295677363",
+      "model": "dj::deepseek-v4.1-flash::"
+    },
+    "group:480477163": {
+      "sessionId": "session-1441af58-70f7-4811-a5aa-40f34e6e9913",
+      "preset": "aurabot-social",
+      "level": "social",
+      "createdAt": 1794156380079,
+      "title": "QQ 群 · 命苦的人分群",
+      "model": "dj::deepseek-v4.1-flash::"
     }
   }
 }
