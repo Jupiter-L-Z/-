@@ -62,7 +62,8 @@
                                   "904022857",
                                   "3442083503",
                                   "2175342893",
-                                  "2295677363"
+                                  "2295677363",
+                                  "19147147"
                               ],
                   "groups":  [
                                  "779137146",
@@ -178,9 +179,9 @@
                   "wakeWords":  [
                                     "豆浆"
                                 ],
-                  "interjectChance":  0.15,
+                  "interjectChance":  0.13,
                   "cooldownSec":  140,
-                  "maxPerHour":  5,
+                  "maxPerHour":  2,
                   "quietHours":  [
                                      1,
                                      8
@@ -206,13 +207,7 @@
                   "burstMax":  7,
                   "burstWindowSec":  90,
                   "overrides":  {
-                                    "904022857":  {
-                                                      "interjectChance":  0,
-                                                      "minRelevance":  0.1
-                                                  },
-                                    "1091456838":  {
-                                                       "interjectChance":  0
-                                                   }
+
                                 },
                   "ownerBrief":  {
                                      "enabled":  true,
@@ -269,7 +264,7 @@
     "stickers":  {
                      "enabled":  true,
                      "faces":  false,
-                     "autoChance":  0.05,
+                     "autoChance":  0.07,
                      "collect":  true,
                      "collectMode":  "owner",
                      "fromGroups":  true,
@@ -438,7 +433,7 @@
                  "base":  60
              },
     "chat":  {
-                 "seedHistory":  false,
+                 "seedHistory":  true,
                  "seedHistoryCount":  20
              },
     "memory":  {
@@ -562,7 +557,19 @@
                     "emotion":  {
                                     "enabled":  false,
                                     "useBuiltin":  false
-                                }
+                                },
+                    "browser-ops":  {
+                                        "enabled":  false,
+                                        "useBuiltin":  false
+                                    },
+                    "roast-mode":  {
+                                       "enabled":  false,
+                                       "useBuiltin":  false
+                                   },
+                    "token-budget":  {
+                                         "enabled":  false,
+                                         "useBuiltin":  false
+                                     }
                 },
     "safeMode":  false,
     "ext":  {
@@ -666,7 +673,7 @@
                              "greetingsMorningMax":  1,
                              "greetingsEveningMin":  0,
                              "greetingsEveningMax":  1,
-                             "greetingsLastDay":  "2026-11-12",
+                             "greetingsLastDay":  "2026-11-15",
                              "enabled":  true,
                              "gapMinutes":  1,
                              "crossChatUsers":  "1450520453，1327536037",
@@ -691,7 +698,7 @@
                                   "syncHours":  12,
                                   "maxHints":  2,
                                   "hintChars":  300,
-                                  "toolChars":  1600
+                                  "toolChars":  1340
                               },
                 "dream":  {
                               "auto":  true,
@@ -739,7 +746,7 @@
                                       "thankFallbackText":  "谢谢你呀，收到了，我记着了。"
                                   },
                 "autonomy":  {
-                                 "enabled":  true,
+                                 "enabled":  false,
                                  "minInterval":  20,
                                  "maxInterval":  90,
                                  "maxWakesPerDay":  40,
@@ -749,7 +756,7 @@
                                  "playfulness":  "high",
                                  "moodNote":  "",
                                  "askTimeoutSec":  45,
-                                 "allowNewMod":  true,
+                                 "allowNewMod":  false,
                                  "grants":  {
                                                 "model":  true,
                                                 "phone":  true
@@ -803,11 +810,17 @@
                                    "python":  "C:\\Users\\86182\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\python.exe",
                                    "groupMode":  false,
                                    "proactive":  true,
-                                   "cooldownHours":  6,
+                                   "cooldownHours":  4,
                                    "dailyLimit":  3,
                                    "shut":  true,
                                    "enabled":  true
-                               }
+                               },
+                "callme":  {
+                               "contact":  "",
+                               "cooldownSec":  30,
+                               "enabled":  false,
+                               "groupCall":  true
+                           }
             },
     "bridge":  {
                    "dshTools":  false,

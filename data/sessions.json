@@ -142,7 +142,7 @@
       "level": "chat",
       "createdAt": 1793703182197,
       "title": "QQ Ã‚Â· Ã¦Å â€“Ã©Å¸Â³ Ã‚Â· Ã¤Â¸Â»Ã¤ÂºÂºÃ§Â§ÂÃ¤Â¿Â¡",
-      "model": "dj::deepseek-v4.1-flash::"
+      "model": "dj::deepseek-v4.1-flash::high"
     },
     "private:3288472729": {
       "sessionId": "session-8f77bccf-8765-44a6-9e7a-29bb8520fb83",
@@ -286,6 +286,14 @@
       "level": "social",
       "createdAt": 1794353557050,
       "title": "QQ · 鱼的心·主动念头",
+      "model": "dj::deepseek-v4.1-flash::high"
+    },
+    "private:19147147": {
+      "sessionId": "session-5f63b18b-4fe7-4de5-ba97-a1f74796b5bc",
+      "preset": "aurabot-social",
+      "level": "social",
+      "createdAt": 1794651279839,
+      "title": "QQ 私聊 · 19147147",
       "model": "dj::deepseek-v4.1-flash::high"
     }
   }
