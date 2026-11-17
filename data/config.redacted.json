@@ -569,7 +569,15 @@
                     "token-budget":  {
                                          "enabled":  false,
                                          "useBuiltin":  false
-                                     }
+                                     },
+                    "autonomy":  {
+                                     "enabled":  false,
+                                     "useBuiltin":  false
+                                 },
+                    "callme":  {
+                                   "enabled":  false,
+                                   "useBuiltin":  false
+                               }
                 },
     "safeMode":  false,
     "ext":  {
@@ -673,7 +681,7 @@
                              "greetingsMorningMax":  1,
                              "greetingsEveningMin":  0,
                              "greetingsEveningMax":  1,
-                             "greetingsLastDay":  "2026-11-15",
+                             "greetingsLastDay":  "2026-11-18",
                              "enabled":  true,
                              "gapMinutes":  1,
                              "crossChatUsers":  "1450520453，1327536037",
@@ -701,7 +709,7 @@
                                   "toolChars":  1340
                               },
                 "dream":  {
-                              "auto":  true,
+                              "auto":  false,
                               "startHour":  1,
                               "endHour":  6,
                               "wakeHour":  7,
@@ -807,6 +815,7 @@
                                 "cooldownSec":  10
                             },
                 "fish-heart":  {
+                                   "sleepEnabled":  false,
                                    "python":  "C:\\Users\\86182\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\python.exe",
                                    "groupMode":  false,
                                    "proactive":  true,
@@ -820,7 +829,59 @@
                                "cooldownSec":  30,
                                "enabled":  false,
                                "groupCall":  true
-                           }
+                           },
+                "force-action":  {
+                                     "enabled":  true,
+                                     "reaction":  true,
+                                     "allowGroups":  true,
+                                     "cooldownSec":  5
+                                 },
+                "moodboard":  {
+                                  "refresh":  5
+                              },
+                "real-life":  {
+                                  "enabled":  true,
+                                  "groupEnabled":  false,
+                                  "autonomyMode":  "daily",
+                                  "heartbeatSec":  30,
+                                  "chatIdleMinutes":  28,
+                                  "forceReplyCount":  4,
+                                  "timeZone":  "Asia/Shanghai",
+                                  "dietEnabled":  true,
+                                  "mealTimes":  "08:00, 12:15, 18:30",
+                                  "dailyMealQuota":  3,
+                                  "chatHungerCost":  1.8,
+                                  "autoMeal":  true,
+                                  "autoSnack":  false,
+                                  "hungerNudge":  true,
+                                  "sleepEnabled":  true,
+                                  "sleepAt":  "23:30",
+                                  "wakeAt":  "07:45",
+                                  "napEnabled":  true,
+                                  "bathroomEnabled":  true,
+                                  "showerEnabled":  true,
+                                  "showerAt":  "21:30",
+                                  "periodEnabled":  true,
+                                  "cycleAnchor":  "",
+                                  "cycleLength":  28,
+                                  "periodDays":  5,
+                                  "periodSeverity":  "heavy",
+                                  "periodNudge":  true
+                              },
+                "voicecall":  {
+                                  "voice":  "zh-CN-XiaoyiNeural",
+                                  "rate":  "",
+                                  "maxChars":  120,
+                                  "lanHttps":  false,
+                                  "httpsPort":  8443,
+                                  "asrProvider":  "local",
+                                  "asrLang":  "zh",
+                                  "ttsProvider":  "follow",
+                                  "ttsFormat":  "pcm",
+                                  "ttsSampleRate":  24000,
+                                  "asrKey":  "",
+                                  "ttsKey":  ""
+                              }
             },
     "bridge":  {
                    "dshTools":  false,

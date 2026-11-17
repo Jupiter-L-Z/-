@@ -1,12 +1,51 @@
 {
   "plan": {
-    "day": "2026-11-15",
+    "day": "2026-11-18",
     "times": [
-      744
+      680
     ],
     "done": []
   },
   "history": [
+    {
+      "at": 1794887059809,
+      "text": "上午的光有点晃眼，我盯着屏幕半天也没干什么正事。心里像被轻轻垫了层棉花，软软的，也提不起劲。就这样慢慢来吧，反正今天也不急",
+      "ok": true,
+      "tid": "af30060e94cdfb6aabc80000",
+      "dryRun": false,
+      "visibility": "self",
+      "target_uins": [],
+      "error": "",
+      "media": [],
+      "imageCount": 0,
+      "warnings": []
+    },
+    {
+      "at": 1794825669345,
+      "text": "傍晚天暗得越来越早了，坐在那儿发呆，脑子里也没想什么正经事。偶尔会觉得自己慢半拍，但慢就慢吧，反正也没人催我。今天就这样轻轻过去，也挺舒服的",
+      "ok": true,
+      "tid": "af30060ec7ddfa6a1cf00400",
+      "dryRun": false,
+      "visibility": "self",
+      "target_uins": [],
+      "error": "",
+      "media": [],
+      "imageCount": 0,
+      "warnings": []
+    },
+    {
+      "at": 1794716659841,
+      "text": "中午刷到校门口摆摊小吃的视频，馋得不行，还瞎算了半天那份能不能回本。后来连着看了两个同人动画，手搓的也太厉害了吧。再刷到回到童年那个，忽然就安静下来了",
+      "ok": true,
+      "tid": "af30060ef533f96afe920500",
+      "dryRun": false,
+      "visibility": "self",
+      "target_uins": [],
+      "error": "",
+      "media": [],
+      "imageCount": 0,
+      "warnings": []
+    },
     {
       "at": 1794633381263,
       "text": "刷到一堆暖锅和冬装的视频，看得我一边馋一边想加购物车。后来又好奇点了古代人怎么过冬，居然那么讲究。看完只觉得自己身上这件外套好像不太够厚啊",
