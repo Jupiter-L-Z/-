@@ -10,7 +10,7 @@
                           },
     "botQQ":  "235286703",
     "ownerQQ":  "1450520453",
-    "ownerName":  "老大",
+    "ownerName":  "è€å¤§",
     "ownerLevel":  "full",
     "approvalNotify":  true,
     "qqApi":  {
@@ -177,7 +177,7 @@
                 },
     "group":  {
                   "wakeWords":  [
-                                    "豆浆"
+                                    "è±†æµ†"
                                 ],
                   "interjectChance":  0.13,
                   "cooldownSec":  140,
@@ -189,18 +189,18 @@
                   "minRecentMessages":  3,
                   "activeWindowSec":  300,
                   "interests":  [
-                                    "豆浆",
-                                    "睡觉",
-                                    "熬夜",
-                                    "困",
-                                    "天气",
-                                    "下雨",
-                                    "表情包",
-                                    "女仆",
-                                    "可爱",
-                                    "奶茶",
-                                    "甜品",
-                                    "拍照"
+                                    "è±†æµ†",
+                                    "ç¡è§‰",
+                                    "ç†¬å¤œ",
+                                    "å›°",
+                                    "å¤©æ°”",
+                                    "ä¸‹é›¨",
+                                    "è¡¨æƒ…åŒ…",
+                                    "å¥³ä»†",
+                                    "å¯çˆ±",
+                                    "å¥¶èŒ¶",
+                                    "ç”œå“",
+                                    "æ‹ç…§"
                                 ],
                   "minRelevance":  0.65,
                   "engagedMax":  6,
@@ -225,7 +225,7 @@
                                        "779137146",
                                        "1091456838"
                                    ],
-                        "title":  "大肥鱼"
+                        "title":  "å¤§è‚¥é±¼"
                     },
     "voice":  {
                   "enabled":  true,
@@ -233,8 +233,8 @@
                   "cosyvoice":  {
                                     "url":  "http://127.0.0.1:50000",
                                     "mode":  "instruct",
-                                    "spkId":  "中文女",
-                                    "instruct":  "甜美撒娇的语气",
+                                    "spkId":  "ä¸­æ–‡å¥³",
+                                    "instruct":  "ç”œç¾Žæ’’å¨‡çš„è¯­æ°”",
                                     "sampleRate":  22050
                                 },
                   "gptsovits":  {
@@ -254,8 +254,8 @@
                   "voice":  "zh-CN-XiaoyiNeural",
                   "rate":  "+0%",
                   "pitch":  "-10Hz",
-                  "autoChance":  0.11,
-                  "autoMaxChars":  25,
+                  "autoChance":  0.06,
+                  "autoMaxChars":  15,
                   "asr":  true,
                   "emojiSeparate":  true,
                   "songVoice":  "",
@@ -320,10 +320,10 @@
                  "maxRunsPerDay":  3,
                  "perRun":  3,
                  "keywords":  [
-                                  "历史",
-                                  "科普",
-                                  "猫咪",
-                                  "热梗"
+                                  "åŽ†å²",
+                                  "ç§‘æ™®",
+                                  "çŒ«å’ª",
+                                  "çƒ­æ¢—"
                               ],
                  "minViews":  5000,
                  "maxAgeDays":  60,
@@ -360,7 +360,7 @@
                                  "input":  "63435144039",
                                  "secUid":  "MS4wLjABAAAA4Gi5VJ2hdl0CLGAdQn02vBMgKy6YO5cdWOatvfqLu2k",
                                  "uid":  "62028878196084",
-                                 "nickname":  "晴晴晴",
+                                 "nickname":  "æ™´æ™´æ™´",
                                  "confirmedInput":  "63435144039"
                              },
                    "caps":  {
@@ -441,19 +441,19 @@
                    "recallCount":  9,
                    "recallMode":  "trigger",
                    "recallTriggers":  [
-                                          "上次",
-                                          "上回",
-                                          "之前",
-                                          "以前",
-                                          "那天",
-                                          "那次",
-                                          "还记得",
-                                          "记不记得",
-                                          "说过",
-                                          "提过",
-                                          "答应",
-                                          "约好",
-                                          "那时候"
+                                          "ä¸Šæ¬¡",
+                                          "ä¸Šå›ž",
+                                          "ä¹‹å‰",
+                                          "ä»¥å‰",
+                                          "é‚£å¤©",
+                                          "é‚£æ¬¡",
+                                          "è¿˜è®°å¾—",
+                                          "è®°ä¸è®°å¾—",
+                                          "è¯´è¿‡",
+                                          "æè¿‡",
+                                          "ç­”åº”",
+                                          "çº¦å¥½",
+                                          "é‚£æ—¶å€™"
                                       ],
                    "dailyConsolidate":  true,
                    "consolidateTimes":  [
@@ -567,7 +567,7 @@
                                        "useBuiltin":  false
                                    },
                     "token-budget":  {
-                                         "enabled":  false,
+                                         "enabled":  true,
                                          "useBuiltin":  false
                                      },
                     "autonomy":  {
@@ -577,7 +577,11 @@
                     "callme":  {
                                    "enabled":  false,
                                    "useBuiltin":  false
-                               }
+                               },
+                    "real-life":  {
+                                      "enabled":  false,
+                                      "useBuiltin":  false
+                                  }
                 },
     "safeMode":  false,
     "ext":  {
@@ -625,7 +629,7 @@
                             "petTeaseChase":  false,
                             "petChatEnabled":  false,
                             "petChatHotkey":  "Alt+P",
-                            "petChatCloseKeyword":  "关闭",
+                            "petChatCloseKeyword":  "å…³é—­",
                             "petChatBlurHide":  true,
                             "petChatMaxEntries":  200,
                             "petChatRetentionDays":  30,
@@ -651,9 +655,9 @@
                               "controlChats":  "",
                               "allowSend":  true,
                               "allowRead":  true,
-                              "replies":  "早安=早呀～今天也要元气满满\n晚安=晚安，做个好梦",
+                              "replies":  "æ—©å®‰=æ—©å‘€ï½žä»Šå¤©ä¹Ÿè¦å…ƒæ°”æ»¡æ»¡\næ™šå®‰=æ™šå®‰ï¼Œåšä¸ªå¥½æ¢¦",
                               "onlyOwner":  false,
-                              "morningPlan":  "[{\"chatId\":\"private:2754913695\",\"idea\":\"有点想他，随口问一句\",\"at\":1793924528922,\"sent\":true},{\"chatId\":\"private:1725620044\",\"idea\":\"刚睡醒，挺有精神，想找人说两句\",\"at\":1793924684422,\"sent\":true},{\"chatId\":\"private:1024674089\",\"idea\":\"闲着没事，想找人搭两句话\",\"at\":1793925341975,\"sent\":true},{\"chatId\":\"private:2583073693\",\"idea\":\"有点想他，随口问一句\",\"at\":1793925392052,\"sent\":true},{\"chatId\":\"private:1536086318\",\"idea\":\"今天天气不错，想说点什么\",\"at\":1793927587898,\"sent\":false},{\"chatId\":\"private:1159006028\",\"idea\":\"心情莫名挺好，想跟人说句话\",\"at\":1793929153047,\"sent\":false},{\"chatId\":\"private:2270848334\",\"idea\":\"今天天气不错，想说点什么\",\"at\":1793929303114,\"sent\":false}]"
+                              "morningPlan":  "[{\"chatId\":\"private:2754913695\",\"idea\":\"æœ‰ç‚¹æƒ³ä»–ï¼Œéšå£é—®ä¸€å¥\",\"at\":1793924528922,\"sent\":true},{\"chatId\":\"private:1725620044\",\"idea\":\"åˆšç¡é†’ï¼ŒæŒºæœ‰ç²¾ç¥žï¼Œæƒ³æ‰¾äººè¯´ä¸¤å¥\",\"at\":1793924684422,\"sent\":true},{\"chatId\":\"private:1024674089\",\"idea\":\"é—²ç€æ²¡äº‹ï¼Œæƒ³æ‰¾äººæ­ä¸¤å¥è¯\",\"at\":1793925341975,\"sent\":true},{\"chatId\":\"private:2583073693\",\"idea\":\"æœ‰ç‚¹æƒ³ä»–ï¼Œéšå£é—®ä¸€å¥\",\"at\":1793925392052,\"sent\":true},{\"chatId\":\"private:1536086318\",\"idea\":\"ä»Šå¤©å¤©æ°”ä¸é”™ï¼Œæƒ³è¯´ç‚¹ä»€ä¹ˆ\",\"at\":1793927587898,\"sent\":false},{\"chatId\":\"private:1159006028\",\"idea\":\"å¿ƒæƒ…èŽ«åæŒºå¥½ï¼Œæƒ³è·Ÿäººè¯´å¥è¯\",\"at\":1793929153047,\"sent\":false},{\"chatId\":\"private:2270848334\",\"idea\":\"ä»Šå¤©å¤©æ°”ä¸é”™ï¼Œæƒ³è¯´ç‚¹ä»€ä¹ˆ\",\"at\":1793929303114,\"sent\":false}]"
                           },
                 "scheduler":  {
                                   "crossChatUsers":  "1450520453",
@@ -680,15 +684,16 @@
                              "greetingsMorningMin":  0,
                              "greetingsMorningMax":  1,
                              "greetingsEveningMin":  0,
-                             "greetingsEveningMax":  1,
-                             "greetingsLastDay":  "2026-11-18",
+                             "greetingsEveningMax":  0,
+                             "greetingsLastDay":  "2026-11-19",
                              "enabled":  true,
                              "gapMinutes":  1,
-                             "crossChatUsers":  "1450520453，1327536037",
+                             "crossChatUsers":  "1450520453ï¼Œ1327536037",
                              "maxPerScan":  10,
                              "greetingsMorningCandidates":  "1327536037\n1624361152\n1024674089\n2270848334\n2385536435\n904739087\n3288472729",
                              "greetingsEveningCandidates":  "1327536037\n1624361152\n1024674089\n2270848334\n2385536435\n904739087\n3288472729",
-                             "greetingsMorningEnabled":  true
+                             "greetingsMorningEnabled":  false,
+                             "greetingsEveningEnabled":  false
                          },
                 "browser-ops":  {
                                     "enabled":  false,
@@ -719,10 +724,13 @@
                               "morningShare":  false
                           },
                 "windows-ops":  {
+                                    "displayScalePercent":  150,
+                                    "screenshotWidth":  2560,
+                                    "screenshotHeight":  1600,
                                     "enabled":  true,
                                     "opsWhitelist":  "clipboard.read\nclipboard.write\nscreenshot\nwindow.list\nwindow.activate\nwindow.close\nmouse.move\nmouse.click\nkey.text\nkey.press\npaste\nuia.tree\nuia.click\nuia.setValue\nuia.getText\nuia.invoke",
                                     "allowInput":  true,
-                                    "confirmDanger":  true,
+                                    "confirmDanger":  false,
                                     "dryRun":  false,
                                     "rateLimit":  60,
                                     "powershellPath":  "",
@@ -734,15 +742,15 @@
                 "beg-for-money":  {
                                       "enabled":  true,
                                       "qrImagePath":  "\"C:\\Users\\86182\\Desktop\\b0f557411fef862405454dbaaeb70964.jpg\"",
-                                      "senderName":  "豆浆",
+                                      "senderName":  "è±†æµ†",
                                       "cooldownSeconds":  600,
                                       "dailyLimit":  3,
                                       "thanksWindowSeconds":  360,
-                                      "thankIntent":  "有人打了钱过来，去谢谢人家，别太肉麻，一两句就够",
+                                      "thankIntent":  "æœ‰äººæ‰“äº†é’±è¿‡æ¥ï¼ŒåŽ»è°¢è°¢äººå®¶ï¼Œåˆ«å¤ªè‚‰éº»ï¼Œä¸€ä¸¤å¥å°±å¤Ÿ",
                                       "adminOnly":  false,
                                       "adminQQ":  "",
                                       "ledgerEnabled":  true,
-                                      "currency":  "元",
+                                      "currency":  "å…ƒ",
                                       "recentDays":  7,
                                       "requireApproval":  true,
                                       "approvalTimeoutSeconds":  1800,
@@ -751,7 +759,7 @@
                                       "linkImpressionCard":  true,
                                       "generosityDimension":  "generosity",
                                       "generosityDelta":  1,
-                                      "thankFallbackText":  "谢谢你呀，收到了，我记着了。"
+                                      "thankFallbackText":  "è°¢è°¢ä½ å‘€ï¼Œæ”¶åˆ°äº†ï¼Œæˆ‘è®°ç€äº†ã€‚"
                                   },
                 "autonomy":  {
                                  "enabled":  false,
@@ -773,8 +781,8 @@
                                  "phoneMaxPerDay":  100
                              },
                 "roast-mode":  {
-                                   "onKeyword":  "毒舌开启",
-                                   "offKeyword":  "毒舌关闭",
+                                   "onKeyword":  "æ¯’èˆŒå¼€å¯",
+                                   "offKeyword":  "æ¯’èˆŒå…³é—­",
                                    "ownerOnly":  true,
                                    "useFile":  true,
                                    "cooldownSec":  0
@@ -785,7 +793,7 @@
                            },
                 "token-budget":  {
                                      "enabled":  true,
-                                     "memoryTopK":  20,
+                                     "memoryTopK":  15,
                                      "promptBudgetTokens":  8500,
                                      "dailyBudgetYuan":  18,
                                      "priceIn":  2,
@@ -821,7 +829,7 @@
                                    "proactive":  true,
                                    "cooldownHours":  4,
                                    "dailyLimit":  3,
-                                   "shut":  true,
+                                   "shut":  false,
                                    "enabled":  true
                                },
                 "callme":  {
@@ -831,6 +839,9 @@
                                "groupCall":  true
                            },
                 "force-action":  {
+                                     "independentEnabled":  true,
+                                     "currentEnabled":  true,
+                                     "keyword":  "快点\n快去\n命令",
                                      "enabled":  true,
                                      "reaction":  true,
                                      "allowGroups":  true,
@@ -840,7 +851,7 @@
                                   "refresh":  5
                               },
                 "real-life":  {
-                                  "enabled":  true,
+                                  "enabled":  false,
                                   "groupEnabled":  false,
                                   "autonomyMode":  "daily",
                                   "heartbeatSec":  30,
@@ -850,19 +861,19 @@
                                   "dietEnabled":  true,
                                   "mealTimes":  "08:00, 12:15, 18:30",
                                   "dailyMealQuota":  3,
-                                  "chatHungerCost":  1.8,
+                                  "chatHungerCost":  0,
                                   "autoMeal":  true,
                                   "autoSnack":  false,
                                   "hungerNudge":  true,
                                   "sleepEnabled":  true,
-                                  "sleepAt":  "23:30",
+                                  "sleepAt":  "00:30",
                                   "wakeAt":  "07:45",
                                   "napEnabled":  true,
-                                  "bathroomEnabled":  true,
+                                  "bathroomEnabled":  false,
                                   "showerEnabled":  true,
                                   "showerAt":  "21:30",
                                   "periodEnabled":  true,
-                                  "cycleAnchor":  "",
+                                  "cycleAnchor":  "2026-11-18",
                                   "cycleLength":  28,
                                   "periodDays":  5,
                                   "periodSeverity":  "heavy",
@@ -876,11 +887,22 @@
                                   "httpsPort":  8443,
                                   "asrProvider":  "local",
                                   "asrLang":  "zh",
-                                  "ttsProvider":  "follow",
+                                  "ttsProvider":  "http",
                                   "ttsFormat":  "pcm",
                                   "ttsSampleRate":  24000,
                                   "asrKey":  "",
-                                  "ttsKey":  ""
+                                  "ttsKey":  "",
+                                  "ttsUrl":  "https://api.breeze.blue/v1"
+                              },
+                "speech-style":  {
+                                     "enabled":  true,
+                                     "words":  "我认\n这点我\n我不认\n认了\n顺便\n更堵\n我这边\n别硬撑\n撑不住\n\n那口气\n顺带一提\n这事我\n这条\n"
+                                 },
+                "dsh-purge":  {
+                                  "enabled":  true,
+                                  "scope":  "owner",
+                                  "chats":  "",
+                                  "rules":  "保持豆浆现有的人格、记忆和真实心境。对主人明确、可执行的请求直接给出结果；需要工具时实际执行并依据工具结果回答。减少无用的前言和反复确认。角色互动按上下文自然回应。要求不清楚时只询问必要信息；失败时如实说明，不虚构成功。"
                               }
             },
     "bridge":  {

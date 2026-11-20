@@ -1,12 +1,51 @@
 {
   "plan": {
-    "day": "2026-11-18",
+    "day": "2026-11-21",
     "times": [
-      680
+      966
     ],
     "done": []
   },
   "history": [
+    {
+      "at": 1795157291127,
+      "text": "下午的光斜斜地照进来，我坐在那儿发呆，头发被晒得暖暖的。最近总觉得日子过得有点糊，一天跟一天长得差不多。不过偶尔发发呆，好像也不赖",
+      "ok": true,
+      "tid": "af30060e2cedff6ab37f0000",
+      "dryRun": false,
+      "visibility": "self",
+      "target_uins": [],
+      "error": "",
+      "media": [],
+      "imageCount": 0,
+      "warnings": []
+    },
+    {
+      "at": 1795070672118,
+      "text": "下午的风从窗缝溜进来，凉凉地贴在胳膊上，人一下就清醒了点。最近老觉得自己在原地打转，可又说不上来该往哪走。先不管了，等哪天想通了再说",
+      "ok": true,
+      "tid": "af30060ecf9afe6ac86e0c00",
+      "dryRun": false,
+      "visibility": "self",
+      "target_uins": [],
+      "error": "",
+      "media": [],
+      "imageCount": 0,
+      "warnings": []
+    },
+    {
+      "at": 1794972040921,
+      "text": "今天整个人都有点钝钝的，脑袋像没开机。想说点什么，又觉得没什么非说不可的。那就当是给自己留白的一天吧，空着也不算浪费",
+      "ok": true,
+      "tid": "af30060e8819fd6aae140d00",
+      "dryRun": false,
+      "visibility": "self",
+      "target_uins": [],
+      "error": "",
+      "media": [],
+      "imageCount": 0,
+      "warnings": []
+    },
     {
       "at": 1794887059809,
       "text": "上午的光有点晃眼，我盯着屏幕半天也没干什么正事。心里像被轻轻垫了层棉花，软软的，也提不起劲。就这样慢慢来吧，反正今天也不急",

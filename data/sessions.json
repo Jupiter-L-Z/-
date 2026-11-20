@@ -9,11 +9,11 @@
       "model": "gpt::gpt-6-astra::"
     },
     "private:1450520453": {
-      "sessionId": "session-fda56551-223e-409e-8f96-cba763963088",
+      "sessionId": "session-b334591d-397f-4f80-85b7-83957a970902",
       "preset": "aurabot-private",
       "level": "full",
-      "createdAt": 1794126935845,
-      "title": "QQ · 老大私聊",
+      "createdAt": 1795190271263,
+      "title": "QQ · è€å¤§私聊",
       "model": "dj::deepseek-v4.1-flash::high"
     },
     "system:bili": {
@@ -30,7 +30,7 @@
       "level": "social",
       "createdAt": 1793685553198,
       "title": "QQ Ã‚Â· QQ Ã‚Â· Ã¥Ë†Â·Ã¦Å â€“Ã©Å¸Â³",
-      "model": "dj::deepseek-v4.1-flash::high"
+      "model": "deepseek-official::deepseek-flash::high"
     },
     "group:1016983755": {
       "sessionId": "session-6e01e2a8-b076-4315-b046-79145923f89e",
@@ -38,7 +38,7 @@
       "level": "social",
       "createdAt": 1793686167190,
       "title": "QQ Ã§Â¾Â¤ Ã‚Â· Ã©â€¦â€™Ã©Â¦â€ ",
-      "model": "dj::deepseek-v4.1-flash::high"
+      "model": "deepseek-official::deepseek-flash::high"
     },
     "system:purpose": {
       "sessionId": "session-077cf6e5-ea0f-44ee-aa46-6ccdee1ef92b",
@@ -70,7 +70,7 @@
       "level": "social",
       "createdAt": 1793689498675,
       "title": "QQ Ã§Â¾Â¤ Ã‚Â· Ã¥Â°ÂÃ¥â€ºÂ¢Ã¤Â½â€œÃ¯Â¼Ë†Ã¥â‚¬â€™Ã¨Â®Â¡Ã¦â€”Â¶48Ã¥Â¤Â©Ã¯Â¼â€°",
-      "model": "dj::deepseek-v4.1-flash::high"
+      "model": "deepseek-account::deepseek-flash::high"
     },
     "group:779137146": {
       "sessionId": "session-dbd18e85-0dbb-4129-8fe4-40d140e1b660",
@@ -206,7 +206,7 @@
       "level": "social",
       "createdAt": 1793722556036,
       "title": "QQ Ã§Â§ÂÃ¨ÂÅ  Ã‚Â· Ã¥â€™â€“Ã¥â€“Â±Ã©Â¸Â¡",
-      "model": "dj::deepseek-v4.1-flash::"
+      "model": "dj::deepseek-v4.1-flash::high"
     },
     "private:1159006028": {
       "sessionId": "session-acb46477-3809-4202-a609-c713f0dce4f9",
@@ -262,7 +262,7 @@
       "level": "chat",
       "createdAt": 1794046911406,
       "title": "QQ · 空间图文日记",
-      "model": "dj::deepseek-v4.1-flash::high"
+      "model": "deepseek-account::deepseek-flash::high"
     },
     "private:2295677363": {
       "sessionId": "session-13a5e4a6-aeba-4ffa-9783-3edb0b0c30a6",
@@ -286,7 +286,7 @@
       "level": "social",
       "createdAt": 1794353557050,
       "title": "QQ · 鱼的心·主动念头",
-      "model": "dj::deepseek-v4.1-flash::high"
+      "model": "deepseek-account::deepseek-flash::high"
     },
     "private:19147147": {
       "sessionId": "session-5f63b18b-4fe7-4de5-ba97-a1f74796b5bc",
@@ -302,6 +302,14 @@
       "level": "chat",
       "createdAt": 1794929819459,
       "title": "QQ · 强制指令·反应",
+      "model": "dj::deepseek-v4.1-flash::high"
+    },
+    "system:ext-subagent-parent": {
+      "sessionId": "session-cdc85f53-1262-4a10-a421-b5a843c04b9b",
+      "preset": "aurabot-social",
+      "level": "social",
+      "createdAt": 1795002523243,
+      "title": "QQ · 子智能体调度",
       "model": "dj::deepseek-v4.1-flash::high"
     }
   }
